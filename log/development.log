@@ -1,0 +1,294 @@
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: ae45217ea337462b863fbba3e2afb199.vfs.cloud9.us-east-2.amazonaws.com
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: ae45217ea337462b863fbba3e2afb199.vfs.cloud9.us-east-2.amazonaws.com
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: ae45217ea337462b863fbba3e2afb199.vfs.cloud9.us-east-2.amazonaws.com
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: ae45217ea337462b863fbba3e2afb199.vfs.cloud9.us-east-2.amazonaws.com
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: ae45217ea337462b863fbba3e2afb199.vfs.cloud9.us-east-2.amazonaws.com
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: ae45217ea337462b863fbba3e2afb199.vfs.cloud9.us-east-2.amazonaws.com
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: ae45217ea337462b863fbba3e2afb199.vfs.cloud9.us-east-2.amazonaws.com
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: ae45217ea337462b863fbba3e2afb199.vfs.cloud9.us-east-2.amazonaws.com
+Started GET "/" for 67.164.126.215 at 2023-07-10 19:12:07 +0000
+Cannot render console from 67.164.126.215! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ubuntu/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 11.5ms | Allocations: 517)
+Completed 200 OK in 101ms (Views: 48.0ms | ActiveRecord: 0.0ms | Allocations: 4090)
+
+
+Started GET "/" for 67.164.126.215 at 2023-07-10 19:52:17 +0000
+Cannot render console from 67.164.126.215! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ubuntu/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.3ms | Allocations: 517)
+Completed 200 OK in 13ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 3656)
+
+
+Started GET "/" for 67.164.126.215 at 2023-07-10 19:52:30 +0000
+Cannot render console from 67.164.126.215! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ubuntu/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.3ms | Allocations: 294)
+Completed 200 OK in 8ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 996)
+
+
+Started GET "/" for 67.164.126.215 at 2023-07-10 19:57:35 +0000
+Cannot render console from 67.164.126.215! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 6ms (Views: 5.3ms | Allocations: 769)
+
+
+Started GET "/" for 67.164.126.215 at 2023-07-10 19:59:05 +0000
+Cannot render console from 67.164.126.215! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 11)
+Completed 500 Internal Server Error in 3ms (Views: 2.3ms | Allocations: 967)
+
+
+  
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  
+app/controllers/application_controller.rb:5:in `hello'
+Started GET "/" for 67.164.126.215 at 2023-07-10 20:00:28 +0000
+Cannot render console from 67.164.126.215! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 10)
+Redirected to 
+Completed 500 Internal Server Error in 5ms (Views: 1.8ms | Allocations: 975)
+
+
+  
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  
+app/controllers/application_controller.rb:5:in `hello'
+Started GET "/" for 67.164.126.215 at 2023-07-10 20:00:45 +0000
+Cannot render console from 67.164.126.215! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 10)
+Completed 200 OK in 3ms (Views: 2.4ms | Allocations: 532)
+
+
+Started GET "/" for 67.164.126.215 at 2023-07-10 20:01:00 +0000
+Cannot render console from 67.164.126.215! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 10)
+Completed 200 OK in 3ms (Views: 2.6ms | Allocations: 531)
+
+
+Started GET "/" for 67.164.126.215 at 2023-07-10 20:01:48 +0000
+Cannot render console from 67.164.126.215! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 11)
+Completed 200 OK in 2ms (Views: 1.8ms | Allocations: 531)
+
+
+Started GET "/" for 67.164.126.215 at 2023-07-10 20:01:55 +0000
+Cannot render console from 67.164.126.215! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 10)
+Completed 200 OK in 4ms (Views: 2.9ms | Allocations: 530)
+
+
+Started GET "/" for 67.164.126.215 at 2023-07-10 20:02:09 +0000
+Cannot render console from 67.164.126.215! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 10)
+Completed 200 OK in 3ms (Views: 2.7ms | Allocations: 530)
+
+
+Started GET "/" for 67.164.126.215 at 2023-07-10 20:02:31 +0000
+Cannot render console from 67.164.126.215! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 20)
+Completed 200 OK in 11ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 2331)
+
+
+Started GET "/" for 67.164.126.215 at 2023-07-10 20:02:49 +0000
+Cannot render console from 67.164.126.215! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 11)
+Completed 200 OK in 3ms (Views: 2.7ms | Allocations: 533)
+
+
+Started GET "/" for 67.164.126.215 at 2023-07-10 20:02:51 +0000
+Cannot render console from 67.164.126.215! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | Allocations: 6)
+Completed 200 OK in 1ms (Views: 1.0ms | Allocations: 198)
+
+
+Started GET "/" for 67.164.126.215 at 2023-07-10 20:04:02 +0000
+Cannot render console from 67.164.126.215! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ArgumentError (Invalid route name, already in use: 'root' 
+You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here: 
+https://guides.rubyonrails.org/routing.html#restricting-the-routes-created):
+  
+config/routes.rb:4:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for 67.164.126.215 at 2023-07-10 20:05:04 +0000
+Cannot render console from 67.164.126.215! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 11)
+Completed 200 OK in 3ms (Views: 1.9ms | Allocations: 533)
+
+
+Started GET "/" for 67.164.126.215 at 2023-07-10 20:05:27 +0000
+Cannot render console from 67.164.126.215! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+TypeError (no implicit conversion of Symbol into Integer):
+  
+config/routes.rb:3:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for 67.164.126.215 at 2023-07-10 20:05:44 +0000
+Cannot render console from 67.164.126.215! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ApplicationController#bat as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 10)
+Completed 200 OK in 9ms (Views: 8.3ms | Allocations: 530)
+
+
+Started GET "/" for 67.164.126.215 at 2023-07-10 20:06:18 +0000
+Cannot render console from 67.164.126.215! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 10)
+Completed 200 OK in 6ms (Views: 5.3ms | Allocations: 532)
+
+
+Started GET "/" for 67.164.126.215 at 2023-07-10 20:06:23 +0000
+Cannot render console from 67.164.126.215! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 3ms (Views: 1.2ms | Allocations: 196)
+
+
+Started GET "/" for 67.164.126.215 at 2023-07-10 20:06:37 +0000
+Cannot render console from 67.164.126.215! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ApplicationController#bat as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 10)
+Completed 200 OK in 5ms (Views: 4.6ms | Allocations: 530)
+
+
+Started GET "/" for 67.164.126.215 at 2023-07-10 20:06:45 +0000
+Cannot render console from 67.164.126.215! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 10)
+Completed 200 OK in 6ms (Views: 4.3ms | Allocations: 530)
+
+
+Started GET "/" for 67.164.126.215 at 2023-07-10 20:07:12 +0000
+Cannot render console from 67.164.126.215! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 10)
+Completed 500 Internal Server Error in 5ms (Views: 2.6ms | Allocations: 971)
+
+
+  
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  
+app/controllers/application_controller.rb:9:in `bat'
+app/controllers/application_controller.rb:5:in `hello'
+Started GET "/" for 67.164.126.215 at 2023-07-10 20:07:35 +0000
+Cannot render console from 67.164.126.215! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 10)
+Completed 200 OK in 2ms (Views: 1.8ms | Allocations: 531)
+
+
+Started GET "/" for 67.164.126.215 at 2023-07-10 20:07:56 +0000
+Cannot render console from 67.164.126.215! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.2ms | Allocations: 10)
+Completed 200 OK in 5ms (Views: 3.3ms | Allocations: 530)
+
+
+Started GET "/" for 67.164.126.215 at 2023-07-10 20:08:03 +0000
+Cannot render console from 67.164.126.215! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 1ms (Views: 0.5ms | Allocations: 194)
+
+
+Started GET "/" for 67.164.126.215 at 2023-07-10 20:08:05 +0000
+Cannot render console from 67.164.126.215! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 3ms (Views: 3.1ms | Allocations: 176)
+
+
+Started GET "/" for 67.164.126.215 at 2023-07-10 20:08:08 +0000
+Cannot render console from 67.164.126.215! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 10)
+Completed 200 OK in 3ms (Views: 2.2ms | Allocations: 535)
+
+
+Started GET "/" for 67.164.126.215 at 2023-07-10 20:08:18 +0000
+Cannot render console from 67.164.126.215! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.9ms | Allocations: 10)
+Completed 200 OK in 5ms (Views: 4.5ms | Allocations: 533)
+
+
+Started GET "/" for 67.164.126.215 at 2023-07-11 17:06:42 +0000
+Cannot render console from 67.164.126.215! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 20)
+Completed 200 OK in 11ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 2334)
+
+
+Started GET "/" for 67.164.126.215 at 2023-07-11 17:07:07 +0000
+Cannot render console from 67.164.126.215! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 11)
+Completed 200 OK in 3ms (Views: 2.7ms | Allocations: 533)
+
+
+Started GET "/" for 67.164.126.215 at 2023-07-11 17:54:38 +0000
+Cannot render console from 67.164.126.215! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 20)
+Completed 200 OK in 11ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 2331)
+
+
+Started GET "/" for 67.164.126.215 at 2023-07-11 17:59:08 +0000
+Cannot render console from 67.164.126.215! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 20)
+Completed 200 OK in 7ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 2331)
+
+
+Started GET "/" for 67.164.126.215 at 2023-07-11 17:59:09 +0000
+Cannot render console from 67.164.126.215! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
